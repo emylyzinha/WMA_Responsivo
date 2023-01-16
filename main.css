@@ -1,0 +1,89 @@
+:root {
+    --bg: #000000;
+    --colorWhite: #ffffff;
+    --danger: #a30000;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--colorWhite);
+}
+
+.caixa {
+    padding: 40px 0;
+}
+
+footer p a {
+    margin: 5px 15px;
+}
+
+.imgServicos {
+    width: 120px;
+}
+.logo {
+    width: 100%;
+}
+.logoWMA {
+    width: 180px;
+    text-align: center;
+}
+.iconSobre {
+    border-radius: 80%;
+}
+.pilaresSobre {
+    border: 1px solid var(--danger);
+}
+.btn-danger {
+    background-color: var(--danger);
+}
+footer{
+    margin-bottom: 0;
+}
+
+@media (max-width: 575.98px) {
+    .iconContato::before {
+        font-size: 4.5rem;
+    }
+    .caixaOrc {
+        text-align: center;
+    }
+    .parte2{
+        border: 1px solid var(--danger);
+        margin-top: 40px;
+        padding: 20px;
+    }
+    #facaOrc {
+        text-align: center;
+    }
+    section.caixa {
+        text-align-last: center;
+        text-align: center;
+        text-justify: auto;
+        margin-bottom: 10px;      
+        padding: 20px;      
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        background-color: yellowgreen;
+    }
+    .fa-whatsapp::before {
+        font-size: 4.5rem;
+    }
+    .fa-map-marker-alt:before{
+        font-size: 4.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        background-color: pink;
+    }
+    .fa-whatsapp::before {
+        font-size: 4rem;
+    }
+    .fa-map-marker-alt:before{
+        font-size: 4.5rem;
+    }
+}

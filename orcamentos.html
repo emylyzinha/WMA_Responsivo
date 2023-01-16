@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>WMA</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+  <header><!-- inicio Cabecalho -->
+    <nav class="navbar navbar-expand-xl navbar-dark" id="nav"><!-- expand responsavel pelo botão responsivo, sm: tamanho de tela em que o botão aparece-->
+        <!--Logo-->
+        <a href="index.html" class="navbar-brand logoWMA ml-5">
+            <img src="img/logoWma01.png" class="ml-auto mr-auto logo">
+        </a>
+
+        <!--Menu Hamburguer-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Navegação-->
+        <div class="collapse navbar-collapse" id="nav-target3">
+            <ul class="navbar-nav ml-auto"><!--ml: margin-left-->
+                <li class="nav-item" style="margin-right: 20px;">
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item" style="margin-right: 20px;">
+                    <a href="sobre.html" class="nav-link">SOBRE</a>
+                </li>
+
+                <li class="nav-item dropdown" style="margin-right: 20px;">
+                    <a href="servicos.html" class="nav-link dropdown-toggle" data-toggle="dropdown">SERVIÇOS</a>
+
+                    <div class="dropdown-menu">
+                        <a href="servicos.html#funilaria" class="dropdown-item">Funilaria</a>
+                        <a href="servicos.html#martelinho" class="dropdown-item">Martelinho</a>
+                        <a href="servicos.html#express" class="dropdown-item">Serviço Express</a>
+                        <a href="servicos.html#espelhamento" class="dropdown-item">Espelhamento</a>
+                        <a href="servicos.html#vitrificacao" class="dropdown-item">Vitrificação</a>
+                    </div>
+
+                </li>
+
+                <li class="nav-item" style="margin-right: 20px;">
+                    <a href="antesDepois.html" class="nav-link">ANTES E DEPOIS</a>
+                </li>
+                <li class="nav-item" style="margin-right: 20px;">
+                    <a href="orcamentos.html" class="nav-link">ORÇAMENTOS</a>
+                </li>
+                <li class="nav-item" style="margin-right: 20px;">
+                    <a href="contatos.html" class="nav-link">CONTATOS</a>
+                </li>
+                <li class="nav-item" style="margin-right: 20px;">
+                    <a href="contatos.html" class="nav-link">47 3264-8347</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+  </header><!--/fim Cabecalho -->
+
+  <section class="caixa">
+    <div class="container">
+      <h1  id="facaOrc">AGENDE SEU CARRO!</h1>
+    </div>
+  </section>
+
+  <section class="caixa">
+    <div class="container">
+      <div class="row caixaOrc parte1">
+          <div class="col-md-4">
+            <div class="row mt-4">
+              <div class="col-sm-3 text-center">
+                <p class="display-3"><i class="fab fa-whatsapp fa-lg iconContato"></i></p>
+              </div>
+              <div class="col-sm-9">
+                <h3>Fale conosco<br>(47)3264-8347</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 parte2">
+              <h3 class="mt-4">Horário de funcionamento</h3>
+              <p class="lead"><b>Segunda à sexta: </b> 8:00h às 12:00h<br>13:30h às 18:00h</p>
+              <p class="lead"><b>Sábado: </b> 8:00h às 12:00h</p>
+          </div>
+          <div class="col-md-4">
+            <div class="row mt-4">
+              <div class="col-sm-3 text-center">
+                <p class="display-2"><i class="fas fa-map-marker-alt iconContato"></i></p>
+              </div>
+              <div class="col-sm-9 align-self-center">
+                <h3>Rua 3100, 741</h3>
+                <p class="lead">Centro - Balneário Camboriú</p>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  </section>
+
+  <section class="caixa justify-content-center">
+    <div class="container-fluid">
+      <div class="jumbotron border m-5" style="background-color: rgba(0, 0, 0, 0.836);">
+        <h3 class="mb-4 text-center">FAÇA UM ORÇAMENTO!</h3>
+        <form name="meuForm"  method="post" id="formulario" class="col-md-6 offset-md-3" action="http://formmail.kinghost.net/formmail.cgi">
+
+          <input type="hidden" name="recipient" value="wmamarteliho@gmail.com"> <!-- Pode ser qualquer endereço de email -->
+          <input type="hidden" name="redirect" value="WMA.html"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+          <input type="hidden" name="subject" value="Orçamento">  <!-- Assunto da mensagem -->
+          <input type="hidden" name="email" value="adrisantos0001@gmail.com">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+  
+  
+          <div>
+      
+              <label class="form-group row mt-4">
+                  <span class="col-sm-4 col-lg-2 col-form-label">Nome Completo</span>
+                   <input type="text" class="input_text form-control col-sm-8 col-lg-10" name="nome" id="name"/>
+      
+              </label>
+      
+              <label class="form-group row mt-4">
+                   <span class="col-sm-4 col-lg-2  col-form-label">Email</span>
+                  <input type="text" class="input_text form-control col-sm-8 col-lg-10" name="email" id="email"/>
+               </label>
+      
+              <label class="form-group row mt-4">
+                   <span class="col-sm-4 col-lg-2  col-form-label">Assunto</span>
+                  <input type="text" class="input_text form-control col-sm-8 col-lg-10" name="assunto" id="subject"/>
+              </label>
+      
+              <label class="form-group row mt-4">
+                  <span class="col-sm-4 col-lg-2 col-form-label">Mensagem</span>
+                  <textarea class="message form-control col-sm-8 col-lg-10 mb-4" name="feedback" id="feedback"></textarea>
+                  <div class="text-right col-sm-12">
+                    <input type="button" class="button btn btn-danger btn-lg" value="Enviar" />
+                  </div>
+              </label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+    
+  <footer class="mt-4 mb-4">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-8">
+          <p>
+            <a href="index.html" class="text-light mr-2">Home</a>
+            <a href="sobre.html" class="text-light mr-2">Sobre</a>
+            <a href="servicos.html" class="text-light mr-2">Serviços</a>
+            <a href="antesDepois.html" class="text-light mr-2">Antes e depois</a>
+            <a href="orcamentos.html" class="text-light mr-2">Orçamentos</a>
+            <a href="contatos.html" class="text-light mr-2">Contatos</a>
+            <a href="contatos.html" class="text-light mr-2">47 3264-8347</a>
+          </p>
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-end">
+          
+          <a href="https://www.facebook.com/wmamartelinhodeouro" class="ml-2 text-light">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+
+          <a href="https://api.whatsapp.com/send?phone=554732648347" class="ml-2 text-light">
+            <i class="fab fa-whatsapp fa-lg"></i>
+          </a>
+
+          <a href="https://www.instagram.com/wmamartelinhodeouro/" class="ml-2 text-light">
+            <i class="fab fa-instagram fa-lg"></i>
+          </a>
+
+          <a href="orcamentos.html#name" class="ml-2 text-light">
+            <i class="fas fa-envelope fa-lg"></i>
+          </a>
+
+          <a href="https://www.google.com.br/maps/place/R.+3100,+741+-+Centro,+Balne%C3%A1rio+Cambori%C3%BA+-+SC,+88330-304/@-27.001929,-48.6326164,17.5z/data=!4m5!3m4!1s0x94d8b672beb38503:0xe208d7716d5e17cd!8m2!3d-27.0014171!4d-48.6301521?hl=pt-BR&authuser=0" class="ml-2 text-light">
+            <i class="fas fa-map-marker-alt"></i>
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

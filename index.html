@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>WMA</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+  <header><!-- inicio Cabecalho -->
+      <nav class="navbar navbar-expand-xl navbar-dark" id="nav"><!-- expand responsavel pelo botão responsivo, sm: tamanho de tela em que o botão aparece-->
+          <!--Logo-->
+          <a href="index.html" class="navbar-brand logoWMA ml-5">
+              <img src="img/logoWma01.png" class="ml-auto mr-auto logo">
+          </a>
+  
+          <!--Menu Hamburguer-->
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target3">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <!--Navegação-->
+          <div class="collapse navbar-collapse" id="nav-target3">
+              <ul class="navbar-nav ml-auto"><!--ml: margin-left-->
+                  <li class="nav-item" style="margin-right: 20px;">
+                      <a href="index.html" class="nav-link">HOME</a>
+                  </li>
+                  <li class="nav-item" style="margin-right: 20px;">
+                      <a href="sobre.html" class="nav-link">SOBRE</a>
+                  </li>
+  
+                  <li class="nav-item dropdown" style="margin-right: 20px;">
+                      <a href="servicos.html" class="nav-link dropdown-toggle" data-toggle="dropdown">SERVIÇOS</a>
+  
+                      <div class="dropdown-menu">
+                          <a href="servicos.html#funilaria" class="dropdown-item">Funilaria</a>
+                          <a href="servicos.html#martelinho" class="dropdown-item">Martelinho</a>
+                          <a href="servicos.html#express" class="dropdown-item">Serviço Express</a>
+                          <a href="servicos.html#espelhamento" class="dropdown-item">Espelhamento</a>
+                          <a href="servicos.html#vitrificacao" class="dropdown-item">Vitrificação</a>
+                      </div>
+  
+                  </li>
+  
+                  <li class="nav-item" style="margin-right: 20px;">
+                      <a href="antesDepois.html" class="nav-link">ANTES E DEPOIS</a>
+                  </li>
+                  <li class="nav-item" style="margin-right: 20px;">
+                      <a href="orcamentos.html" class="nav-link">ORÇAMENTOS</a>
+                  </li>
+                  <li class="nav-item" style="margin-right: 20px;">
+                      <a href="contatos.html" class="nav-link">CONTATOS</a>
+                  </li>
+                  <li class="nav-item" style="margin-right: 20px;">
+                      <a href="contatos.html" class="nav-link">47 3264-8347</a>
+                  </li>
+  
+              </ul>
+          </div>
+      </nav>
+  </header><!--/fim Cabecalho -->
+
+  <section class="caixa">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/bannerWMA.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/banner1WMA.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/banner2WMA.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+  </section>
+
+  <section class="mt-4 caixa">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <h1 class="mt-4">QUEM SOMOS</h1>
+                  <p class="lead">WMA Martelinho de Ouro é um centro de reparo e pintura em automóveis. Ao longo de mais de 20 anos no mercado, sendo 6 anos em Balneário Camboriú, desenvolvemos expertise incomparável nos principais serviços de reparo automotivo, sempre inovando e investindo em equipamentos de última geração.</p>
+                  <button class="btn btn-outline-light btn-lg mt-4">Saiba mais</button>
+              </div>
+              <div class="col-md-6 d-flex">
+                  <img src="img/frente.jpg" class="col-sm-12 mt-4">
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="mt-4 caixa">
+      <div class="container">
+          <h1 class="mt-4 ml-4">SERVIÇOS</h1>
+          <div id="alinhamentoServicos" class="row d-flex justify-content-center mr-0 ml-0">
+              <div class="text-center p-5 pt-5">
+                  <img src="img/pistola.png" class="imgServicos">
+                  <p>FUNILARIA E <br>PINTURA</p>
+                  <a href="servicos.html#funilaria" class="btn btn-outline-light">Saiba mais</a>
+              </div>
+              <div class="text-center p-5 pt-5">
+                  <img src="img/martelo.png" class="imgServicos">
+                  <p>MARTELINHO <br>DE OURO</p>
+                  <a href="servicos.html#martelinho" class="btn btn-outline-light">Saiba mais</a>
+              </div>
+              <div class="text-center p-5 pt-5">
+                  <img src="img/relogio.png" class="imgServicos">
+                  <p>SERVIÇO <br>EXPRESS</p>
+                  <a href="servicos.html#express" class="btn btn-outline-light">Saiba mais</a>
+              </div>
+              <div class="text-center p-5 pt-5">
+                  <img src="img/carro.png" class="imgServicos">
+                  <p>ESPELHAMENTO <br>E PINTURA 3M</p>
+                  <a href="servicos.html#espelhamento" class="btn btn-outline-light">Saiba mais</a>
+              </div>
+              <div class="text-center p-5 pt-5">
+                  <img src="img/polidor.png" class="imgServicos">
+                  <p>VITRIFICAÇÃO E <br>POLIMENTOS</p>
+                  <a href="servicos.html#vitrificacao" class="btn btn-outline-light">Saiba mais</a>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="mt-4 caixa">  
+      <div class="container">
+          <h1 class="mt-4 ml-4">ANTES E DEPOIS</h1>
+          <div class="row">
+            <div id="carouselExampleSlidesOnly" class="carousel slide col-md-6" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/01.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/02.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/03.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide col-md-6" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/01.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/02.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/03.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="mt-4 caixa">
+      <div class="container">
+          <div class="jumbotron border m-5" style="background-color: rgba(0, 0, 0, 0.836);">
+              <div class="container">
+                  <h2 class="p-4">AGENDE UM ORÇAMENTO</h2>
+                  <p class="lead">Na WMA Martelinho de Ouro você encontra várias opções de orçamento. Podendo ser feito via: WhatsApp, Email ou presencial. Escolha a maneira que te atenda melhor.</p>
+                  <a href="orcamentos.html#facaOrc" class="btn btn-outline-light btn-lg">Agendar</a>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <footer class="mt-4 mb-4">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-8">
+          <p>
+            <a href="index.html" class="text-light mr-2">Home</a>
+            <a href="sobre.html" class="text-light mr-2">Sobre</a>
+            <a href="servicos.html" class="text-light mr-2">Serviços</a>
+            <a href="antesDepois.html" class="text-light mr-2">Antes e depois</a>
+            <a href="orcamentos.html" class="text-light mr-2">Orçamentos</a>
+            <a href="contatos.html" class="text-light mr-2">Contatos</a>
+            <a href="contatos.html" class="text-light mr-2">47 3264-8347</a>
+          </p>
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-end">
+          
+          <a href="https://www.facebook.com/wmamartelinhodeouro" class="ml-2 text-light">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+
+          <a href="https://api.whatsapp.com/send?phone=554732648347" class="ml-2 text-light">
+            <i class="fab fa-whatsapp fa-lg"></i>
+          </a>
+
+          <a href="https://www.instagram.com/wmamartelinhodeouro/" class="ml-2 text-light">
+            <i class="fab fa-instagram fa-lg"></i>
+          </a>
+
+          <a href="orcamentos.html#name" class="ml-2 text-light">
+            <i class="fas fa-envelope fa-lg"></i>
+          </a>
+
+          <a href="https://www.google.com.br/maps/place/R.+3100,+741+-+Centro,+Balne%C3%A1rio+Cambori%C3%BA+-+SC,+88330-304/@-27.001929,-48.6326164,17.5z/data=!4m5!3m4!1s0x94d8b672beb38503:0xe208d7716d5e17cd!8m2!3d-27.0014171!4d-48.6301521?hl=pt-BR&authuser=0" class="ml-2 text-light">
+            <i class="fas fa-map-marker-alt"></i>
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
